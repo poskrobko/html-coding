@@ -5,22 +5,20 @@
 body {
     width: 100%;
 }
-header {
-    height: 125px;
-}
 .logo {
-    position: absolute;
     float: left;
-    margin-left: 250px;
-    margin-top: 140px;
+    width: 50%;
+}
+
+.logo > img {
+    width: 70px;
+    padding-left: 40%;
 }
 nav {
     float: left;
-    width: 80%;
-    position: absolute;
-    margin-top: 160px;
-    margin-left: 500px;
+    width: 50%;
     font-size: 15px;
+    margin-top: 30px;
 }
 p {
     font-family: Arial, Helvetica, sans-serif;
@@ -31,43 +29,36 @@ p {
     margin-left: 70px;
     color:black;
 }
+
 .title {
     float: left;
-    margin-left: 400px;
-    color:black;
-    position: absolute;
-    margin-top: 400px;
+    margin-left: 20%;
+    color:white;
     font-size: 25px;
+    font-weight: lighter;
+    margin-top: 300px;
 }
-.cell {
-    float: left;
-    margin-left: 400px;
-    color:black;
-    position: absolute;
-    text-align: center;
-    margin-top: 500px;
-    font-size: 11px;
-    background: orange;
-    border-radius: 20px;
-    width: 90px;
-    height: 30px;
+
+section {
+    display: inline-block;
 }
+
 main {
     height: 600px;
     width: 100%;
 }
-
 .preview {  
-    background-image: url(hero.jpg) ;
-     background-size: cover;
-     background-position: center;
-     height: 100vh;
-     background-attachment: fixed;
-     opacity: 0.4;
+    background-image: -webkit-linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(hero.jpg);
+    background-image: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    width: 100%;
 }
 h1 {
     float: left;
-    margin-left: 380px;
+    margin-left: 550px;
     color:black;
     position: absolute;
     margin-top: 50px;
@@ -77,90 +68,122 @@ h1 {
 }
 h2 {
     float: left;
-    margin-left: 180px;
+    margin-left: 300px;
     color:black;
     position: absolute;
-    margin-top: 200px;
+    margin-top: 270px;
     font-size: 18px;
     font-weight: lighter;
+}
+.infinity-img {
+    float: left;
+    margin-left: 300px;
+    margin-top: 220px;
+}
+.infinity-img > img {
+    width: 40px;
 }
 h3 {
     float: left;
-    margin-left: 420px;
+    margin-left: 550px;
     color:black;
     position: absolute;
-    margin-top: 200px;
+    margin-top: 270px;
     font-size: 18px;
     font-weight: lighter;
+}
+.clock-img{
+    float: left;
+    margin-left: 210px;
+    margin-top: 220px;
+}
+.clock-img > img {
+    width: 40px;
 }
 h4{
     float: left;
-    margin-left: 650px;
+    margin-left: 780px;
     color:black;
     position: absolute;
-    margin-top: 200px;
+    margin-top: 270px;
     font-size: 18px;
     font-weight: lighter;
+}
+.carrot-img{
+    float: left;
+    margin-left: 200px;
+    margin-top: 220px;
+}
+.carrot-img > img {
+    width: 40px;
 }
 h5{
     float: left;
-    margin-left: 870px;
+    margin-left: 995px;
     color:black;
     position: absolute;
-    margin-top: 200px;
+    margin-top: 270px;
     font-size: 18px;
     font-weight: lighter;
 }
+.shopping-img {
+    float: left;
+    margin-left: 160px;
+    margin-top: 220px;
+}
+.shopping-img > img{
+    width: 40px;
+}
 .foodfast {
     float: left;
-    margin-left: 330px;
+    margin-left: 470px;
     color:black;
     position: absolute;
-    margin-top: 100px;
+    margin-top: 130px;
     font-size: 14px;
     font-weight: lighter;
 }
 .text1 {
     float: left;
-    margin-left: 180px;
+    margin-left: 300px;
     color:black;
     position: absolute;
     word-wrap: break-word;
     width: 200px;
-    margin-top: 230px;
+    margin-top: 300px;
     font-size: 12px;
     font-weight: lighter;
 }
 .text2 {
     float: left;
-    margin-left: 420px;
+    margin-left: 550px;
     color:black;
     position: absolute;
     word-wrap: break-word;
     width: 200px;
     font-size: 12px;
     font-weight: lighter;
-    margin-top: 230px;
+    margin-top: 300px;
 }
 .text3 {
     float: left;
-    margin-left: 650px;
+    margin-left: 780px;
     color:black;
     position: absolute;
     word-wrap: break-word;
     width: 200px;
     font-size: 12px;
     font-weight: lighter;
-    margin-top: 230px;
+    margin-top: 300px;
 }
 .text4 {
     float: left;
-    margin-left: 870px;
+    margin-left: 995px;
     color:black;
     position: absolute;
     word-wrap: break-word;
     width: 200px;
     font-size: 12px;
     font-weight: lighter;
-    margin-top: 230px;
+    margin-top: 300px;
 }
