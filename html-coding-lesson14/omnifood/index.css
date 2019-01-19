@@ -1,0 +1,432 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    width: 100%;
+}
+.logo {
+    float: left;
+    width: 50%;
+}
+
+.logo > img {
+    width: 70px;
+    padding-left: 40%;
+}
+nav {
+    float: left;
+    width: 50%;
+    font-size: 15px;
+    margin-top: 30px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+.nav-item {
+    float: left;
+    margin-left: 70px;
+    color:black;
+}
+
+.title {
+    float: left;
+    margin-left: 20%;
+    color:white;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 300px;
+}
+.form1 {
+    border: 2px solid orange;
+    color: white;
+    background-color: orange;
+    margin-right: 15px;
+    padding: 10px 30px;
+    border-radius: 200px;
+    font-size: 15px;
+}
+.form2 {
+    border-radius: 200px;
+    font-size: 14px;
+    padding: 10px 30px;
+    border: 2px solid orange;
+    color: orange;
+    background-color: rgba(0, 0, 0, 0);
+}
+section {
+    display: inline-block;
+}
+
+main {
+    height: 600px;
+    width: 100%;
+}
+.preview {  
+    background-image: -webkit-linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(hero.jpg);
+    background-image: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    width: 100%;
+}
+h1 {
+    float: left;
+    margin-left: 550px;
+    color:darkgrey;
+    position: absolute;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: 'Thasadith', sans-serif;
+}
+hr {
+    width: 60px;
+    margin-left: 50%;
+    position: absolute;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border-color: orange;
+}
+.days {
+    float: left;
+    margin-left: 300px;
+    color: darkgrey;
+    position: absolute;
+    margin-top: 270px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.infinity-img {
+    float: left;
+    margin-left: 300px;
+    margin-top: 220px;
+}
+.infinity-img > img {
+    width: 40px;
+}
+.minutes {
+    float: left;
+    margin-left: 550px;
+    color: darkgrey;
+    position: absolute;
+    margin-top: 270px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.clock-img{
+    float: left;
+    margin-left: 210px;
+    margin-top: 220px;
+}
+.clock-img > img {
+    width: 40px;
+}
+.organic {
+    float: left;
+    margin-left: 780px;
+    color: darkgrey;
+    position: absolute;
+    margin-top: 270px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.carrot-img{
+    float: left;
+    margin-left: 200px;
+    margin-top: 220px;
+}
+.carrot-img > img {
+    width: 40px;
+}
+.anything {
+    float: left;
+    margin-left: 995px;
+    color: darkgrey;
+    position: absolute;
+    margin-top: 270px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.shopping-img {
+    float: left;
+    margin-left: 160px;
+    margin-top: 220px;
+}
+.shopping-img > img{
+    width: 40px;
+}
+.foodfast {
+    float: left;
+    margin-left: 470px;
+    color:darkgrey;
+    position: absolute;
+    margin-top: 130px;
+    font-size: 14px;
+    font-weight: lighter;
+    
+}
+.text1 {
+    float: left;
+    margin-left: 300px;
+    color:darkgrey;
+    position: absolute;
+    word-wrap: break-word;
+    width: 200px;
+    margin-top: 300px;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.text2 {
+    float: left;
+    margin-left: 550px;
+    color:darkgrey;
+    position: absolute;
+    word-wrap: break-word;
+    width: 200px;
+    font-size: 12px;
+    font-weight: lighter;
+    margin-top: 300px;
+}
+.text3 {
+    float: left;
+    margin-left: 780px;
+    color:darkgrey;
+    position: absolute;
+    word-wrap: break-word;
+    width: 200px;
+    font-size: 12px;
+    font-weight: lighter;
+    margin-top: 300px;
+}
+.text4 {
+    float: left;
+    margin-left: 995px;
+    color:darkgrey;
+    position: absolute;
+    word-wrap: break-word;
+    width: 200px;
+    font-size: 12px;
+    font-weight: lighter;
+    margin-top: 300px;
+}
+.menu-blog {
+    float: left;
+    width: 25%;
+    padding: 0px;
+    border: none;
+}
+.menu{
+    margin-top: 200px;
+}
+h2 {
+    float: left;
+    margin-left: 500px;
+    color:darkgrey;
+    position: absolute;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: 'Thasadith', sans-serif;
+}
+.phone {
+    display: inline-block;
+}
+.iphone-photo {
+    float: left;
+    margin-left: 350px;
+    position: absolute;
+    margin-top: 150px;
+}
+.iphone-photo > img {
+    width: 200px;
+}
+.number {
+    display: inline-block;
+    margin-left: 600px;
+    margin-top: 30px;
+}
+.number-works {
+    margin-top: 150px;
+    color: darkgrey;
+}
+.download {
+    margin-left: 600px;
+    margin-top: 90px;
+}
+.download-app {
+    width: 20%;
+}
+.download-android {
+    width: 20%;
+}
+h3 {
+  float: left;
+  margin-left: 500px;
+  margin-top: 60px;
+  color: darkgrey;
+  font-size: 23px;
+  font-weight: lighter;
+  font-family: 'Thasadith', sans-serif;
+}
+.lisbon-photo {
+    float: left;
+    margin-left: 250px;
+    margin-top: 60px;
+}
+.lisbon-text {
+    float: right;
+    margin-right: 75%;
+    margin-top: 10px;
+    color: darkgrey;
+}
+.san-photo {
+    float: left;
+    margin-left: 480px;
+    position: absolute;
+    margin-top: 146px;
+}
+.san-text {
+    float: left;
+    margin-left: 490px;
+    position: absolute;
+    margin-top: 295px;
+    color: darkgrey;
+}
+.berlin-photo {
+    float: left;
+    margin-left: 710px;
+    position: absolute;
+    margin-top: 146px;
+}
+.berlin-text {
+    float: left;
+    margin-left: 720px;
+    position: absolute;
+    margin-top: 295px;
+    color: darkgrey;
+}
+.london-photo{
+    float: left;
+    margin-left: 940px;
+    position: absolute;
+    margin-top: 146px;
+}
+.london-text {
+    float: left;
+    margin-left: 950px;
+    position: absolute;
+    margin-top: 295px;
+    color: darkgrey;
+}
+.icon-text {
+    float: left;
+    margin-left: 260px;
+    margin-top: 6px;
+    color: darkgrey;
+}
+.icons {
+    width: 2%;
+    margin-top: 10px;
+}
+.icon-text1 {
+    float: left;
+    margin-left: 490px;
+    position: absolute;
+    margin-top: 320px;
+    color: darkgrey;
+}
+.icon-text2 {
+    float: left;
+    margin-left: 720px;
+    position: absolute;
+    margin-top: 320px;
+    color: darkgrey;
+}
+.icon-text3 {
+    float: left;
+    margin-left: 950px;
+    position: absolute;
+    margin-top: 320px;
+    color: darkgrey;
+}
+.pizza-photo {
+    background-image: -webkit-linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(back-customers.jpg);
+    background-image: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(back-customers.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    background-attachment: fixed;
+    width: 100%;
+    margin-top: 50px;
+}
+.title-logo {
+    float: left;
+    margin-left: 35%;
+    color:darkgrey;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 70px;
+}
+.omnifood-text {
+   float: left;
+   margin-left: 300px;
+   margin-top: 80px;
+   color: darkgrey;
+   font-size: 13px;
+   font-family: 'Muli', sans-serif;
+   word-wrap: break-word;
+   width: 180px;
+}
+.healthy-text {
+   float: left;
+   margin-left: 100px;
+   margin-top: 80px;
+   color: darkgrey;
+   font-size: 13px;
+   font-family: 'Muli', sans-serif;
+   word-wrap: break-word;
+   width: 180px;
+}
+.looking-text {
+    float: left;
+   margin-left: 100px;
+   margin-top: 80px;
+   color: darkgrey;
+   font-size: 13px;
+   font-family: 'Muli', sans-serif;
+   word-wrap: break-word;
+   width: 180px;
+}
+.customer-photo1{
+   float: left;
+   margin-left: 300px;
+   margin-top: 10px;
+   color: darkgrey;
+   font-size: 10px;
+}
+.photo1 {
+    border-radius: 50%;
+}
+.customer-photo2{
+    float: left;
+    margin-left: 180px;
+    margin-top: 10px;
+    color: darkgrey;
+    font-size: 10px;
+ }
+ .photo2 {
+     border-radius: 50%;
+ }
+ .customer-photo3{
+    float: left;
+    margin-left: 200px;
+    margin-top: 10px;
+    color: darkgrey;
+    font-size: 10px;
+ }
+ .photo3{
+     border-radius: 50%;
+ }
